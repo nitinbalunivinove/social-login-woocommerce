@@ -19,6 +19,7 @@ final class snLoginPlugin{
 
 	private function define_constants(){
 		$this->define( 'SNL_PLUGIN_ABSPATH', dirname( SNL_PLUGIN_FILE ) );
+		$this->define( 'SNL_GIT_TEST', 'Check_Git_Update' );
 	}
 
 	private function define( $name, $value ) {
